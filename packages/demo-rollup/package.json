@@ -1,0 +1,23 @@
+{
+  "name": "@demo/rollup",
+  "version": "1.0.0",
+  "description": "Some description here...",
+  "repository": "https://github.com/sun1x/virgil-crypto-javascript-demo/tree/master/demo-rollup",
+  "author": "Serhii Nanovskyi <s.nanovskyi@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "rollup -c",
+    "clean": "rimraf bundle.js",
+    "release": "npm run clean && npm run build"
+  },
+  "dependencies": {
+    "source": "^1.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "rollup": "^0.58.0",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0"
+  }
+}
