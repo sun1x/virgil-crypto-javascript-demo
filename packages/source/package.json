@@ -1,0 +1,27 @@
+{
+  "name": "source",
+  "version": "1.0.0",
+  "description": "Some description here",
+  "main": "cjs/index.js",
+  "module": "es/index.js",
+  "repository": "https://github.com/sun1x/virgil-crypto-javascript-demo/tree/master/source",
+  "author": "Serhii Nanovskyi <s.nanovskyi@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build:cjs": "babel src -d cjs --env-name=cjs",
+    "build:es": "babel src -d es --env-name=es",
+    "build": "npm run build:cjs && npm run build:es",
+    "clean": "rimraf cjs es",
+    "release": "npm run clean && npm run build"
+  },
+  "dependencies": {
+    "virgil-crypto": "^3.0.0-alpha.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.44",
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "rimraf": "^2.6.2"
+  }
+}

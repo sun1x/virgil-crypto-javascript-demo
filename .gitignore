@@ -1,0 +1,9 @@
+.DS_Store
+
+.idea
+.vscode
+.tern-project
+
+node_modules
+package-lock.json
+*.log

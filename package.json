@@ -1,0 +1,15 @@
+{
+ "name": "virgil-crypto-javascript-demo",
+ "version": "1.0.0",
+ "description": "Some description here",
+ "repository": "https://github.com/sun1x/virgil-crypto-javascript-demo",
+ "author": "Serhii Nanovskyi <s.nanovskyi@gmail.com>",
+ "license": "MIT",
+ "private": true,
+ "scripts": {
+  "lerna": "lerna"
+ },
+ "devDependencies": {
+  "lerna": "^2.10.1"
+ }
+}
