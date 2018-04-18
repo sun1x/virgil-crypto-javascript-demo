@@ -1,0 +1,21 @@
+{
+  "name": "@demo/browserify",
+  "version": "1.0.0",
+  "description": "Some description here...",
+  "repository": "https://github.com/sun1x/virgil-crypto-javascript-demo/tree/master/demo-browserify",
+  "author": "Serhii Nanovskyi <s.nanovskyi@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "browserify index.js -o bundle.js",
+    "clean": "rimraf bundle.js",
+    "release": "npm run clean && npm run build"
+  },
+  "dependencies": {
+    "source": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.0",
+    "rimraf": "^2.6.2"
+  }
+}
