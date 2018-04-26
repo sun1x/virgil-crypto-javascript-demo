@@ -2,7 +2,7 @@
   "name": "@demo/webpack",
   "version": "1.0.0",
   "description": "Some description here...",
-  "repository": "https://github.com/sun1x/virgil-crypto-javascript-demo/tree/master/demo-webpack",
+  "repository": "https://github.com/sun1x/virgil-crypto-javascript-demo/tree/master/packages/demo-webpack",
   "author": "Serhii Nanovskyi <s.nanovskyi@gmail.com>",
   "license": "MIT",
   "private": true,

@@ -4,7 +4,7 @@
   "description": "Some description here",
   "main": "cjs/index.js",
   "module": "es/index.js",
-  "repository": "https://github.com/sun1x/virgil-crypto-javascript-demo/tree/master/source",
+  "repository": "https://github.com/sun1x/virgil-crypto-javascript-demo/tree/master/packages/source",
   "author": "Serhii Nanovskyi <s.nanovskyi@gmail.com>",
   "license": "MIT",
   "private": true,

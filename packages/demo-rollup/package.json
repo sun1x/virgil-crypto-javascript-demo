@@ -2,7 +2,7 @@
   "name": "@demo/rollup",
   "version": "1.0.0",
   "description": "Some description here...",
-  "repository": "https://github.com/sun1x/virgil-crypto-javascript-demo/tree/master/demo-rollup",
+  "repository": "https://github.com/sun1x/virgil-crypto-javascript-demo/tree/master/packages/demo-rollup",
   "author": "Serhii Nanovskyi <s.nanovskyi@gmail.com>",
   "license": "MIT",
   "private": true,
